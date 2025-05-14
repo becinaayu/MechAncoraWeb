@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Sobre nós</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <style type="text/css">
+        .intro-section {
+            color: black;
+            text-align: center;
+            padding: 100px 20px;
+        }
+    </style>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top" data-bs-theme="dark">
+    <div class="container-fluid">
+        <a class="navbar-brand me-5" th:href="@{/}">Mech Ancora</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item me-5">
+                    <a class="nav-link active" aria-current="page" th:href="@{/home}">Home</a>
+                </li>
+                <li class="nav-item me-5">
+                    <a class="nav-link" th:href="@{/aboutUs}">Sobre nós</a>
+                </li>
+                <li class="nav-item me-5">
+                    <a class="nav-link" th:href="@{/products}">Produtos</a>
+                </li>
+            </ul>
+            <form class="d-flex" role="search">
+                <a th:href="@{/login}" class="btn btn-success">Login</a>
+            </form>
+        </div>
+    </div>
+</nav>
+
+<!-- Introduction Header-->
+<section class="intro-section bg-primary-subtle" style="background: linear-gradient(90deg, rgba(4, 74, 99, 1) 0%, rgba(100, 87, 199, 1) 50%, rgba(237, 83, 83, 1) 100%);">
+    <div class="container">
+        <h1>Bem-vindo à Mech Ancora</h1>
+        <p class="lead">Sua melhor escolha em produtos automotivos</p>
+    </div>
+</section>
+
+<!-- About Us-->
+<section class="py-5" >
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <h1>Sobre Nós</h1>
+                <p class="lead">Somos um trio de garotas empenhadas em explorar o vasto mundo da tecnologia. Cada uma de nós traz uma perspectiva única e uma paixão inabalável por aprender e inovar. Juntas, estamos comprometidas em enfrentar desafios, desenvolver novas habilidades e contribuir para um futuro tecnológico mais inclusivo e diversificado. Nosso objetivo é inspirar outras pessoas a se juntarem a nós nessa jornada emocionante, compartilhando nossas experiências, conhecimentos e conquistas. Acreditamos que, com determinação e colaboração, podemos alcançar grandes feitos e fazer a diferença no mundo da tecnologia.</p>
+            </div>
+            <div class="col-lg-6 text-center">
+                <i class="bi bi-buildings-fill" style="font-size: 150px;"></i>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Membros -->
+<section class="bg-light py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 text-center">
+                <i class="bi bi-person-circle" style="font-size: 150px;"></i>
+                <h4>Beatriz Dantas</h4>
+                <p>FullStack Dev</p>
+            </div>
+            <div class="col-md-4 text-center">
+                <i class="bi bi-person-circle" style="font-size: 150px;"></i>
+                <h4>Isabela Barcellos</h4>
+                <p>Analista de Banco de Dados</p>
+            </div>
+            <div class="col-md-4 text-center">
+                <i class="bi bi-person-circle" style="font-size: 150px;"></i>
+                <h4>Giovana Gaudino</h4>
+                <p>BackEnd Dev</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

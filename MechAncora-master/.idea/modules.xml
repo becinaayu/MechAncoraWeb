@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MechAncora/MechAncora.iml" filepath="$PROJECT_DIR$/MechAncora/MechAncora.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/MechAncora-master.iml" filepath="$PROJECT_DIR$/.idea/MechAncora-master.iml" />
+    </modules>
+  </component>
+</project>
