@@ -1,25 +1,44 @@
-#Instruções de Uso da Aplicação 
+# 💻 Instruções de Uso da Aplicação Mech Âncora
 
-Recomendação pessoal de uso – IntelliJ. Descompactar o arquivo zip, buildar o arquivo descompactado e dar run no projeto. 
+## 🚀 Como Executar o Projeto
 
-Login: 
+> ✅ **Recomendação pessoal:** use a IDE **IntelliJ IDEA** para a melhor experiência.
 
-Caso seja Admin -  
-Email: Bia 
+1. Descompacte o arquivo `.zip` do projeto.
+2. Abra o projeto no IntelliJ.
+3. Aguarde o build do Maven (ou clique em "Load Maven Project").
+4. Execute a aplicação com `Run > MechAncoraApplication`.
 
-Senha: 123 
+---
 
-Caso seja Usuário comum - 
+## 🔐 Credenciais de Acesso
 
-Email: db 
+### 👩‍💼 Administrador
+- **Email:** `Bia`  
+- **Senha:** `123`
 
-Senha: 123 
+### 👨‍🔧 Usuário Comum
+- **Email:** `db`  
+- **Senha:** `123`
 
-Observações - Caso o arquivo não consiga ser iniciado seguindo esses passos siga essa checklist: 
-Requisitos do Sistema: 
+---
 
-Java SDK 21 
+## ✅ Checklist – Caso ocorra erro ao executar
 
-IDE IntelliJ (Não recomendado o uso pelo NetBeans) 
+- [ ] Você tem o **Java SDK 21** instalado?
+- [ ] Está utilizando a **IDE IntelliJ IDEA**?  
+  > ⚠️ O uso do **NetBeans não é recomendado** e pode gerar erros de build.
+- [ ] O Maven foi corretamente carregado no projeto?
+- [ ] A aplicação está sendo executada por uma classe com `@SpringBootApplication`?
+- [ ] Há um servidor embutido compatível com **Jakarta EE**? (Spring Boot já cuida disso, então normalmente sim)
 
-Um servidor de aplicação compatível com Jakarta EE
+---
+
+## 🛠 Requisitos do Sistema
+
+- Java Development Kit (**JDK 21**)
+- IntelliJ IDEA
+- Maven (gerenciador de dependências)
+- Ambiente com suporte a Spring Boot (servidor embutido incluso)
+
+---
